@@ -7,13 +7,19 @@ Estimation of Obesity levels
 
 # Research Objectives of this Projecet
  1)	Is it possible to make predictions by using the original dataset (2111 observations) for training and new dataset (20758) for testing the model?
-
-     To answer this I will be using diverse classifiers including
+To answer this question I'll go through the following steps
+* Data Loading
+* Data Cleaning
+* Data Preprocessing
+* Model Selection
+* Model Training
+* Model Evaluation
+Diverse classifiers will be used for this including 
    	* Logistic Regression
    	* Random Forest
     * Support Vector Machine
       
- 2)	To check whether the approached defined in Q1 is valid or not?
+ 3)	To check whether the approached defined in Q1 is valid or not?
 For that I will use performance metrics such as accuracy, recall, F1 score and confusion matrix as well as statistical testing including paired t-test and wilcoxon signed rank test to determine of there are significiant differences in perfomance between classifiers.
 
 
