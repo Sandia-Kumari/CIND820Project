@@ -14,6 +14,7 @@ To answer this question I'll go through the following steps
 * Model Selection
 * Model Training
 * Model Evaluation
+
 Diverse classifiers will be used for this including 
    	* Logistic Regression
    	* Random Forest
