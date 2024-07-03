@@ -16,11 +16,11 @@ To answer this question I'll go through the following steps
 * Model Evaluation
 
 Diverse classifiers will be used for this including 
-   	* Logistic Regression
-   	* Random Forest
-    * Support Vector Machine
+* Logistic Regression
+* Random Forest
+* Support Vector Machine
       
- 3)	To check whether the approached defined in Q1 is valid or not?
+ 2)	To check whether the approached defined in Q1 is valid or not?
 For that I will use performance metrics such as accuracy, recall, F1 score and confusion matrix as well as statistical testing including paired t-test and wilcoxon signed rank test to determine of there are significiant differences in perfomance between classifiers.
 
 
