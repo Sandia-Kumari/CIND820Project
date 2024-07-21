@@ -13,8 +13,12 @@ Estimation of Obesity levels
 * [**EDA.ipynb**](https://github.com/Sandia-Kumari/CIND820Project/blob/main/EDA.ipynb) is the detailed exploratory data analysis done by me using python different libraries, it includes descriptive statistics and some inferential statistics like correlation Analysis (Pearson), ANOVA and Chi-square test. It also includes data cleaning/pre-processing.
 
 # Research Objectives of this Projecet
- 1)	Is it possible to make predictions by using the original dataset (2111 observations) for training and new dataset (20758) for testing the model?
-To answer this question I'll go through the following steps
+1.	What type of classification models were used for estimation of multi-class problem obesity levels?
+2.	How did each model perform in terms of accuracy, precision, recall, F1 score, AUC-ROC, and MCC?
+3.	Which model had the best overall performance?
+4.	What patterns do association rules uncover about the link between regular physical activity and maintaining a normal weight ?
+5.	What behaviors or habits are most frequently linked to obesity type III
+
 * Data Loading
 * Data Cleaning
 * Data Preprocessing
@@ -23,11 +27,11 @@ To answer this question I'll go through the following steps
 * Model Evaluation
 
 Diverse classifiers will be used for this including 
+* Decision Tree
 * Logistic Regression
 * Random Forest
 * Support Vector Machine
-      
- 2)	To check whether the approached defined in Q1 is valid or not?
-For that I will use performance metrics such as accuracy, recall, F1 score and confusion matrix as well as statistical testing including paired t-test and wilcoxon signed rank test to determine of there are significiant differences in perfomance between classifiers.
+* XGBoost
+
 
 
